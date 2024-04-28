@@ -6,7 +6,7 @@ class FavoriteAnimesController < ApplicationController
 
   def create
     @favorite_anime = FavoriteAnime.create(
-      user_id: current_user.id,
+      user_id: params[:user_id],
       anime_id: params[:anime_id],
       status: "favorite",
     )

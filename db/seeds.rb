@@ -14,14 +14,14 @@ Anime.create!(name: "One Piece", image_url: "Onepiece.jpg", description: "fill o
 Anime.create!(name: "Naruto", image_url: "Naruto.jpg", description: "fill out later", genre: "fantasy")
 Anime.create!(name: "Bleach", image_url: "Bleach.jpg", description: "fill out later", genre: "adventure")
 
-FavoriteAnime.create!(user_id: 1, anime_id: 1, finished: true)
-FavoriteAnime.create!(user_id: 1, anime_id: 2, finished: true)
-FavoriteAnime.create!(user_id: 1, anime_id: 3, finished: true)
+FavoriteAnime.create!(user_id: 1, anime_id: 1, finished: true, status: "favorite")
+FavoriteAnime.create!(user_id: 1, anime_id: 2, finished: true, status: "favorite")
+FavoriteAnime.create!(user_id: 1, anime_id: 3, finished: true, status: "not")
 
 Manga.create!(name: "One Piece", image_url: "Onepiece.jpg", description: "fill out later", genre: "adventure")
 Manga.create!(name: "Naruto", image_url: "Naruto.jpg", description: "fill out later", genre: "fantasy")
 Manga.create!(name: "Bleach", image_url: "Bleach.jpg", description: "fill out later", genre: "adventure")
 
-FavoriteManga.create!(user_id: 1, manga_id: 1, finished: true)
-FavoriteManga.create!(user_id: 1, manga_id: 2, finished: true)
-FavoriteManga.create!(user_id: 1, manga_id: 3, finished: true)
+FavoriteManga.create!(user_id: 1, manga_id: 1, finished: true, status: "not")
+FavoriteManga.create!(user_id: 1, manga_id: 2, finished: true, status: "favorite")
+FavoriteManga.create!(user_id: 1, manga_id: 3, finished: true, status: "favorite")

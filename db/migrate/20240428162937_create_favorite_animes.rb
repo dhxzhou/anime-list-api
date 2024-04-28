@@ -4,6 +4,7 @@ class CreateFavoriteAnimes < ActiveRecord::Migration[7.1]
       t.integer :user_id
       t.integer :anime_id
       t.boolean :finished
+      t.string :status
 
       t.timestamps
     end

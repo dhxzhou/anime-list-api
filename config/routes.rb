@@ -21,4 +21,12 @@ Rails.application.routes.draw do
   post "/mangas" => "mangas#create"
   patch "/mangas/:id" => "mangas#update"
   delete "/mangas/:id" => "mangas#destroy"
+
+  get "/favorite_animes" => "favorite_animes#index"
+  post "/favorite_animes" => "favorite_animes#create"
+  delete "/favorite_animes/:id" => "favorite_animes#destroy"
+
+  get "/favorite_mangas" => "favorite_mangas#index"
+  post "/favorite_mangas" => "favorite_mangas#create"
+  delete "/favorite_mangas/:id" => "favorite_mangas#destroy"
 end

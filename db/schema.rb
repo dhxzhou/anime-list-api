@@ -27,6 +27,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_28_165034) do
     t.integer "user_id"
     t.integer "anime_id"
     t.boolean "finished"
+    t.string "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -35,6 +36,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_28_165034) do
     t.integer "user_id"
     t.integer "manga_id"
     t.boolean "finished"
+    t.string "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

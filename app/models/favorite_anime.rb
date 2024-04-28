@@ -1,0 +1,2 @@
+class FavoriteAnime < ApplicationRecord
+end

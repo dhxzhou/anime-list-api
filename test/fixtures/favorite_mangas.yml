@@ -2,10 +2,10 @@
 
 one:
   user_id: 1
-  anime_id: 1
+  manga_id: 1
   finished: false
 
 two:
   user_id: 1
-  anime_id: 1
+  manga_id: 1
   finished: false

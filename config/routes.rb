@@ -9,4 +9,16 @@ Rails.application.routes.draw do
   # root "posts#index"
   post "/users" => "users#create"
   post "/sessions" => "sessions#create"
+
+  get "/animes" => "animes#index"
+  get "/animes/:id" => "animes#show"
+  post "/animes" => "animes#create"
+  patch "/animes/:id" => "animes#update"
+  delete "/animes/:id" => "animes#destroy"
+
+  get "/mangas" => "mangas#index"
+  get "/mangas/:id" => "mangas#show"
+  post "/mangas" => "mangas#create"
+  patch "/mangas/:id" => "mangas#update"
+  delete "/mangas/:id" => "mangas#destroy"
 end

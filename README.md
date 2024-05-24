@@ -5,7 +5,8 @@ As someone who watches anime every week, I have started a lot of animes. Some of
 Users are able to sign up and login/logout. After logging in users are able to leave comments and add animes/mangas to their own personal list. Users are also able to rate the animes on their list out of 5 stars as well as mark whether they have finished the anime/manga.
 
 Technologies include Ruby on Rails backend, PostgreSQL database, React.js frontend, AniList API, graphQL database
-Optional: Add screenshots or gifs of your application
+<img width="1338" alt="Anime and Manga List" src="https://github.com/dhxzhou/anime-list-api/assets/76574011/b2233515-6980-4c97-ad67-136f2d6662c7">
+
 
 ## Installation
 
@@ -28,4 +29,4 @@ rails test
 
 ## Roadmap
 
-List any ideas you plan on implementing in the future.
+In the future I plan to finished some of the above functions such as commenting, rating, and marking watched. Other ideas that I want to implement to the app is having a random button that will show users a random anime/manga on click.

@@ -1,24 +1,31 @@
-# README
+# Anime and Manga List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+As someone who watches anime every week, I have started a lot of animes. Some of them I have finished while others i have not. I created this anime and manga (for those of you who enjoy reading mangas) list in order to make it easier to keep track of which animes I have seen, which animes I have finished, and which animes that I enjoyed. The app will fulfill all these functions by providing an index of animes/mangas where you can add them to your own personal list, rating the anime/manga on your personal list out of 5 stars, marking whether you have finished the anime/manga, and having the ability to write a comment for the anime/manga.
 
-Things you may want to cover:
+Users are able to sign up and login/logout. After logging in users are able to leave comments and add animes/mangas to their own personal list. Users are also able to rate the animes on their list out of 5 stars as well as mark whether they have finished the anime/manga.
 
-* Ruby version
+Technologies include Ruby on Rails backend, PostgreSQL database, React.js frontend, AniList API, graphQL database
+Optional: Add screenshots or gifs of your application
 
-* System dependencies
+## Installation
 
-* Configuration
+```bash
+bundle install
+rails db:create db:migrate db:seed
+```
 
-* Database creation
+## Usage
 
-* Database initialization
+```bash
+rails server
+```
 
-* How to run the test suite
+You can run all the API tests from the `test` folder by running: 
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+rails test
+```
 
-* Deployment instructions
+## Roadmap
 
-* ...
+List any ideas you plan on implementing in the future.
